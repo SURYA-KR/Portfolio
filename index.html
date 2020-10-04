@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+</head>
+<body>
+    <header>
+        
+        <div class="heading">
+            <div id="port">
+            <h2>Portf<span>lio</span></h2>
+            </div>
+        </div>
+        <nav class="menu">
+            <ul class="list">
+                <li><a href ="#home">Home</a></li>
+                <li><a href ="#About">About</a></li>
+                <li><a href ="#Skills">Skills</a></li>
+                <li><a href ="#Portfolio">Portfolio</a></li>
+                <li><a href ="#Contact">Contact</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+
+    <section id="Home" class="home">
+        <div class="container">
+            <h4>Hello,Everyone</h4>
+            <h1>I'm <span>SURYA</span></h1>
+            <p>UI&UX Designer,Web Developer</p>
+        </div>
+
+    </section>
+
+    <section id="About" class="about">
+        <div class="heading">
+       <h2>About <span>My Self</span></h2>
+        </div>
+       <div class="content">
+           <p>Hello, Everyone I'm SURYA K</p>
+            <p>UI&UX Designer,Web Developer</p>
+            <p>Im studying in Sri Sairam Engineering College</p>
+            <p>Information Technology Department</p>
+            <p>I'm Designing web pages and </p> 
+            <p>some mobile application </p>
+         
+       </div>
+       <div class="image">  
+           <img src="images/profile.png">
+       </div>
+    </section>
+
+    <section id="Skills" class="skills">
+        <div class="heading">
+            <h2>Skills</h2>
+        </div>
+        
+            <div class="container1">
+                <div class="title1">
+                    <h2>Web Development</h2>
+                </div>
+                <div class="para1">
+                    <p>HTML/CSS skills</p>
+                    <p>JavaScript skills</p>
+                    <p>Testing and debugging skills</p>
+                    <p>Back-end basics</p>
+                    <p>Imagination</p>
+                    <p>Patience</p>
+                </div>
+            </div>
+
+            <div class="container2">
+                <div class="title2">
+                    <h2>App Development</h2>
+                </div>
+                <div class="para2">
+                    <p>Ingenuity and creativity.</p>
+                    <p>Analytical capabilities.</p>
+                    <p>experience of development </p>
+                    <p>methodologies</p>
+                    <p>Creativity. ...</p>
+                    <p>Problem Solving. ...</p>
+                </div>
+            </div>
+
+            <div class="container3">
+                <div class="title3">
+                    <h2>UI&UX Designing</h2>
+                </div>
+                <div class="para3">
+                    <p>Wireframing and UI prototyping.</p>
+                    <p>Interaction design...</p>
+                    <p>Information architecture involves</p>
+                    <p>organizing information in an</p>
+                    <p> understandable manner. ...</p>
+                    
+                </div>
+            </div>
+        
+    </section>
+
+<section id="Portfolio" class="portfolio">
+    <div class="heading">
+        <h1>Portfo<span>lio</span></h1>
+    </div>
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <img src="images/portfo2.jpg" style="width:100%">
+          <div class="text">Architecture</div>
+         </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <img src="images/port1.jpeg" style="width:100%">
+          <div class="text">Portfolio</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <img src="images/port3.jpg" style="width:100%">
+          <div class="text">Decades</div>
+        </div>
+        
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        
+        </div>
+        <br>
+        
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span> 
+          <span class="dot" onclick="currentSlide(2)"></span> 
+          <span class="dot" onclick="currentSlide(3)"></span> 
+        </div>
+        
+</section>
+
+<section id="Contact" class="contact">
+    <div class="containerch">
+        <div style="text-align:center">
+          <h2>Contact Us</h2>
+          
+        </div>
+        <div class="row">
+          
+          <div class="column">
+            <form action="/action_page.php">
+              <label for="fname">Enter Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Enter Your name..">
+              <label for="lname">Email ID</label>
+              <input type="text" id="lname" name="lastname" placeholder="Enter Your email..">
+              <label for="lname">Phone Number</label>
+              <input type="text" id="lname" name="lastname" placeholder="Enter Your number..">
+              <label for="subject">Subject</label>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+              <input type="submit" value="Submit">
+            </form>
+          </div>
+        </div>
+      </div>
+</section>
+  
+<footer id="foater">
+    
+    <div class="Containericons">
+        <h3 data-AOS ="fade-right">Connect us</h3>
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- Add font awesome icons -->
+        <div class="item">
+        <a href="https://www.facebook.com/surya.k.438" class="fa fa-facebook"></a>
+        <a href="https://twitter.com/surya45081518?s=09" class="fa fa-twitter"></a>
+        <a href="https://www.instagram.com/crush_surya_/" class="fa fa-instagram"></a>
+        <a href="https://www.linkedin.com/in/surya-k-9785341a6" class="fa fa-linkedin"></a>
+        </div>
+    </div>   
+        
+        
+       
+    <p class="parg">&copy: 2020 SURYA K</p>
+    
+</footer>
+   
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</body>
+</html>
